@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nova+Slim&family=Pridi:wght@300&display=swap');
+
+body{
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+#table1{
+    border: 1px solid  #e0ca2f	;
+    border-collapse: collapse;
+    
+    
+    width:600px;
+    margin: 15px;
+    font-size: 20px;
+
+}
+#table1 th{
+    text-align: center;
+    border: 1px solid  #e0ca2f;
+    height: 50px;
+    background: #e0ca2f ;
+    font-size: 15px;
+    font-family: 'Pridi', serif;
+}
+#table1 td{
+    text-align: left;
+    padding-left:20px;
+    border: 2px solid  #e0ca2f;
+    height: 50px;
+    width: 300px;
+    color: white;
+    background:#13407D;
+
+}
+#table2{
+    border:  1px solid white;
+    font-family: 'Nova Slim', cursive;
+    border-collapse: collapse;
+    width: 650px;
+    margin:15px;
+}
+#table2 th{
+    text-align: left;
+    border:2px solid white;
+    background:#865DFF;
+    color: rgb(255, 244, 244);
+    letter-spacing: 2px;
+    font-style: bold;
+    font-size: 20px;
+    height: 50px;
+    padding-left:15px;
+    
+}
+#table2 tr:nth-of-type(even){
+    background: #FFA3FD;
+    color: white;
+    border: 1px solid white;
+}
+#table2 tr:nth-of-type(odd){
+    background: #865DFF;
+    color: white;
+    border: 1px solid white;
+}
+#table2 td {
+    border: 2px solid white;
+    height: 40px;
+    padding-left: 15px;
+}
+
+#table3{
+    border: 2px solid black;
+    width: 500px;
+    height: 170px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#table3 tr{
+    height: px;
+}
+#table3 th{
+    border: 2px solid black;
+    padding-left: 8px;
+    background:white;
+    color: black;
+}
+#table3 td{
+    padding-left: 3px;
+    border: 2px solid black;
+    font-weight: 600;
+}
+#table3 tr:nth-of-type(4){
+    background: #E57C23;
+    color:white;
+}
+#table3 tr:nth-of-type(5){
+    background: #05BFDB;
+    color:white;
+}
+#table3 tr:nth-of-type(6){
+    background: #82CD47;
+    color:white;
+}
+
+
